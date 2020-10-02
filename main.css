@@ -38,3 +38,19 @@ body {
 .main-header > div {
   display: inline-block;
 }
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calf(100% - 49px);
+}
+
+.main-nav_item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav_item {
+  display: inline-block;
+}
