@@ -67,3 +67,11 @@ body {
   text-decoration: none;
   color: #0e4f1f;
 }
+
+.main-nav_item a:hover {
+  color: White;
+}
+
+.main-nav_item a:active {
+  color: White;
+}
