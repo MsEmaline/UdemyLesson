@@ -68,10 +68,20 @@ body {
   color: #0e4f1f;
 }
 
+.main-nav__item a::after {
+  content: " (link)";
+  color: red;
+}
+
 .main-nav_item a:hover {
   color: White;
 }
 
 .main-nav_item a:active {
   color: White;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 20px;
 }
